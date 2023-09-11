@@ -1,0 +1,517 @@
+ /*
+  
+  body{
+   
+   
+    background-image: url("https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=996&t=st=1694420838~exp=1694421438~hmac=68161dc84f9f7a59cecd2c77d97f6c6eef9ceecaa2c013c7df7a2250bf9a42fd");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
+  }
+  
+    .task-form{
+      border: 2px solid black;
+      height: 380px;
+      border-radius: 10px;
+      margin-left: 430px;
+      width: 616px;
+    }
+    
+    .input{
+      margin-top: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .task-list {
+      margin-top: 20px;
+      margin-left: 470px;
+    }
+    
+    .task {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 2px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    width: 520px;
+    }
+    
+    .completed {
+      background-color: white;
+    }
+    
+    .task-details {
+      flex: 1;
+      color:black;
+    }
+    
+    .task-actions button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-left: 10px;
+      border-radius: 5px;
+    }
+    
+    .task-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-left: 130px;
+      height: 50px;
+      width: 100px;
+      border-radius: 8px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: large;
+    }
+    
+    .task-form button:hover {
+      background-color: lightblue;
+    }
+    
+    
+    .Toastify_toast.Toastify_toast--warning {
+      font-size: 16px;
+      height: 50px;
+      width: 268px;
+      z-index: 9999;
+    }
+    
+    .h1{
+      font-family:Arial, Helvetica, sans-serif ;
+      font-variant: small-caps;
+      font-size:2em;
+      background-color: rgb(240, 165, 228);
+      padding: 2% 10px;
+      border-radius: 5px  10px  5px  10px;
+      
+      width: 415px;
+      margin-left: 518px;
+      margin-top: 80px;
+    }
+    
+    .input {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-size: 20px!important;
+      height: 30px;
+      width: 400px; 
+      border-radius: 10px;
+      padding: 10px; 
+      margin-bottom: 10px;
+      margin-left: 97px;
+    }
+    
+    .textarea{
+      font-family:"Times New Roman";
+      height: 150px;
+      width: 480px;
+      border-radius: 5px;
+      font-size: medium;
+      margin-left: 50px;
+      padding: 1rem;
+    }
+    
+    .date{
+      height: 50px;
+      width: auto;
+      border-radius: 8px;
+      margin-left: 83px;
+      margin-top: 20px;
+    }
+    
+    .time{
+      height: 50px;
+      width:90px;
+      border-radius: 8px;
+      margin-left: 10px;
+    }
+    
+    
+    
+    
+    
+    .task-actions button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+      margin-left: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; 
+    
+     
+      &.complete-button {
+       background-color: #28a745; 
+      }
+    
+      &.delete-button {
+       background-color: #dc3545;
+      }
+    
+      &.edit-button {
+        color: #007bff; 
+      }
+    
+      &:hover {
+        background-color: #f1f1f1; 
+        
+      }
+    }
+    
+    
+  
+    
+    .complete{
+      font-size: 20px;
+      background-color: #f1f1f1;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+    }*/
+   
+  /*
+    @media (max-width: 768px) {
+      .app {
+        /* margin: 10px; */
+        /* max-width: 100%;
+        margin-left: 10rem;
+        margin-right: 1rem;
+        height: 860px;
+        
+       
+      }
+  
+      .input{
+        width: 230px;
+        margin-left: 85px;
+      }
+  
+      .textarea{
+        height: 126px;
+    width: 395px;
+    margin-left: 10px;
+    font-size: 30px;
+      }
+  
+      .task-form{
+        width: 450px;
+        height: 500px;
+        margin-left: -32px;
+      }
+
+      .date {
+        height: 60px;
+        width: 185px;
+        border-radius: 8px;
+        margin-left: 85px;
+        font-size: 25px;
+        margin-top: 20px;
+      }
+  
+      .task-form button{
+        margin-top: 33px;
+        margin-right: 10px;
+        margin-left: 161px;
+      }
+  
+      .h1{
+        width: 220px;
+        margin-left: 70px;
+      }
+  
+      .task{
+        width: 24rem;
+        margin-left: -453 qpx;
+        margin-left: -475px;
+      }
+
+      .task-details p {
+        font-size: 25px;
+      }
+    
+
+  
+
+    @media (max-width: 1024px) {
+      .app {
+      
+        max-width: 100%;
+        margin-left: 10rem;
+        margin-right: 1rem;
+        height: 860px;
+        
+       
+      }
+  
+      .input{
+        width: 230px;
+        margin-left: 85px;
+      }
+  
+      .textarea{
+        height: 126px;
+    width: 395px;
+    margin-left: 10px;
+    font-size: 30px;
+      }
+  
+      .task-form{
+        width: 450px;
+        height: 500px;
+        margin-left: -32px;
+      }
+
+      .date {
+        height: 60px;
+        width: 185px;
+        border-radius: 8px;
+        margin-left: 85px;
+        font-size: 25px;
+        margin-top: 20px;
+      }
+  
+      .task-form button{
+        margin-top: 33px;
+        margin-right: 10px;
+        margin-left: 161px;
+      }
+  
+      .h1{
+        width: 220px;
+        margin-left: 70px;
+      }
+  
+      .task{
+        width: 24rem;
+        margin-left: -453 qpx;
+        margin-left: -475px;
+      }
+
+      .task-details p {
+        font-size: 25px;
+      }
+    }
+
+   */ 
+/* Global styles that apply to all screen sizes */
+
+
+
+/* Media query for small screens (mobile devices) */
+/* Global styles that apply to all screen sizes */
+body {
+  background-image: url("https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=996&t=st=1694420838~exp=1694421438~hmac=68161dc84f9f7a59cecd2c77d97f6c6eef9ceecaa2c013c7df7a2250bf9a42fd");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common styles for .task-form and .h1 */
+.task-form, .h1 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 0px 0px 10px rgb(216 65 198);
+  margin-top: 20px;
+}
+
+/* Styles for the header */
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 2em;
+  background-color: rgb(240, 165, 228);
+  padding: 2% 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Input field styles */
+.input {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+}
+
+/* Textarea styles */
+.textarea {
+  width: 75%;
+  height: 120px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+}
+
+/* Date input styles */
+.date {
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+}
+
+/* Time input styles */
+.time {
+  width: 12%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 1em;
+  height: 17px;
+  margin-left: 10px;
+}
+
+/* Button styles */
+.task-form button {
+  background-color: #FF69B4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  width: 20%;
+  transition: background-color 0.3s ease;
+  margin-left: 17%;
+}
+
+.task-form button:hover {
+  background-color: lightblue;
+}
+
+/* Task list styles */
+.task-list {
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+/* Task item styles */
+.task {
+  background-color: rgba(255, 255, 255, 0.9);
+  
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 23%;
+  width: 52%;
+  box-shadow:  0px 0px 10px rgb(216 65 198);;
+  
+}
+
+/* Completed task styles */
+.completed {
+  background-color: #FFE8F3;
+}
+
+/* Task details styles */
+.task-details {
+  flex: 1;
+  color: black;
+}
+
+/* Task action button styles */
+.task-actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Completed task button styles */
+.task-actions button.complete-button {
+  background-color:black;
+  
+}
+
+/* Delete task button styles */
+.task-actions button.delete-button {
+  background-color: #dc3545;
+}
+
+/* Edit task button styles */
+.task-actions button.edit-button {
+  color: #007bff;
+}
+
+/* Hover styles for task action buttons */
+.task-actions button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Complete icon styles */
+.complete {
+  font-size: 20px;
+  background-color:white;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+/* Media query for small screens (mobile devices) */
+@media (max-width: 768px) {
+  /* Adjust styles for small screens here */
+  .task-form, .h1 {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+  }
+  .input {
+    width: 50%;
+    margin-left: 0;
+  }
+  .textarea {
+    width: 70%;
+    height: auto;
+    margin-left: 0;
+    font-size: 1em;
+  }
+  .date {
+    width: 28%;
+    margin-left: 0;
+  }
+  .task-form button {
+    margin-left: 17%;
+  }
+  .task {
+    width: 100%;
+    margin-left: 0;
+  }
+  .task-details p {
+    font-size: 1em;
+  }
+}
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 1024px) {
+  /* Adjust styles for medium screens here */
+}
